@@ -1,0 +1,636 @@
+ /* debut Styles pour la nav */
+.nav {
+    overflow: hidden;
+    width: 1300px;
+    height: 100px;
+    display: flex;
+
+}
+.google{
+    width: 60%;
+    height: 100%;
+}
+a{
+    padding-right: 10px;
+}
+
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color:black;
+
+}
+.liste{
+    height: 20px;
+    width: 200px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    justify-content: space-between;
+}
+.boutton{
+    background-color: #27C019;
+    margin-left: 200px;
+    margin-right: 40px;
+    width: 200px;
+}
+/* fin de style pour la nav  */
+
+
+/* debut de code css pour l'entête */
+#gauche{
+    width:185px;
+    height: 159px;
+    border-radius: 100px;
+    background: #A4EB9E;
+}
+#milieu{
+    width:100px;
+    height: 100px;
+   
+}
+#image{
+    margin-right: 450px;
+    
+}
+#droite{
+    width:302px;
+    height: 262px;
+    border-radius: 180px/150px;
+    background: #27C019;
+}
+#interieur{
+    width:300px;
+    height: 200px;
+    margin-top: 15px;
+  
+}
+span{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    background-color: #A4D082;
+    border-radius: 0px 0px 50px 50px;
+}
+#interieur1{
+    width:220px;
+    height: 230px;
+    border-radius: 110px;
+    margin-top: -45px;
+    margin-left: 50px;
+    background-image: url("C:\Users\HP\Desktop\HTML\images\images.jpeg");/* a revoir */
+}
+#picture{
+    margin-top: -16px;
+    margin-right: 50px;
+    border-radius: 110px;
+}
+
+
+button{
+    margin-left: 50px;
+    width: 128px;
+    height: 28px;
+    background-color: #103F0C;
+    color: white;
+}
+
+/* fin de l'entête qui contient les images, les ronds , le boutton play */
+#centrer{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#un{
+    width: 150px;
+    height: 150px;
+    margin-left: 300px;
+}
+#un1{
+    width: 100px;
+    height: 100px;
+    margin-right: 280px;
+    margin-left: 20px;
+}
+#deux{
+    width: 100px;
+    height: 106px;
+    margin-left: 40px;
+  
+}
+.lecentre{ /* le centre contient les deux femmes avec l'ecriture */
+    margin-top: 20px;
+    background-color: white;
+}
+
+.gauche1{
+    width: 60%;
+    height: 300px;
+}
+.droite1{
+    width: 100%;
+    height: 300px;
+
+}
+.centrer{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.un{
+    width: 110px;
+    height: 141px;
+    margin-left: 500px;
+    border-radius: 0px 0px 0px 50px;
+    margin-top: -50px;
+}
+.un1{
+    width: 44px;
+    height: 98px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    margin-left: 300px;
+    background: #27C019;
+    margin-top: -80px; /* voici le petit vert */
+
+}
+
+.picture1{
+    margin-left: 250px;
+}
+.deux{
+    width: 50px;
+    height: 106px;
+    margin-left: 950px;
+    background-color: #27C019;
+    margin-top: -200px;
+  
+}
+.trois{
+    width: 183px;
+    height: 258px;
+    margin-left: 1100px;
+    margin-top: -300px;
+}
+.deux1{
+    width: 140px;
+    height: 140px;
+    margin-left: 900px;
+    margin-top: -250px;
+}
+
+
+/* fin de cette partie qui contient les photos des deux femmes et le texte  */
+.before{
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-color: #A4EB9E;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.meyer{
+    height: 180px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+}
+.textbefore{
+    width: 500px;
+    height: 20px;
+}
+
+.ecriture{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.boutonsouscribeon{
+    margin-top: 15px;
+    background-color: #182E16;
+    width: 118px;
+    height: 32px;
+    margin-right: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.troisieme{
+    width: 100%;
+    height: 300px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+
+}
+.parent{ /* la div qui contient les trois */
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.premier{
+    width: 200px;
+    height:250px;
+    border-radius: 0px 0px 0px 50px;
+    background: #103F0C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icone{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 70px;
+}
+.texte{
+    width: 180px;
+    height: 150px;
+    text-align: center;
+}
+.icone1{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+.deuxieme{
+    width: 200px;
+    height:250px;
+    border-radius: 0px 0px 0px 50px;
+    background: #103F0C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.icone2{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 70px;
+    background-color: white;
+}
+.texte2{
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    
+}
+.icone21{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+.dernier{
+    width: 200px;
+    height:250px;
+    border-radius: 0px 0px 0px 50px;
+    background: #103F0C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.icone3{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 70px;
+}
+.texte3{
+    width: 180px;
+    height: 150px;
+    text-align: center;
+}
+.icone31{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 70px;
+}
+/* partie appostrophe */
+.grande{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+}
+
+.line1{
+    width: 90%;
+    height: 95px;
+}
+.line2{
+    width: 40%;
+    height: 90px;
+    margin-left: 140px;
+    margin-top: -180px;
+    font-size: large;
+}
+.lecontenu{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -200px;
+}
+.line3{
+    width: 50%;
+    height: 95px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.appostrophe{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.robartbrown{
+    width:50% ;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: -60px;
+}
+
+/* fin de la  partie appostrophe  */
+
+/* debut de la partie  medecin avec lunette  */
+
+/* .medecin{
+    margin-top: 20px;
+    width: 80%;
+    height: 276px;
+    border: 2px solid black;
+    margin-left: 140px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+} */
+.lemedecin{
+    margin-top: 20px;
+    width: 80%;
+    height: 276px;
+    margin-left: 140px;
+}
+.imageplay{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+
+}
+
+.Latest{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* fin de la partie  */
+/* debut de la partie alignement des images et texte sur la nourriture */
+.alignement{
+    width: 80%;
+    height: 400px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inline1{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tof1{
+    width: 30%;
+    height: 160px;
+}
+.tof2{
+    width: 30%;
+    height: 160px;
+}
+.tof3{
+    width: 30%;
+    height: 160px;
+
+}
+
+.inline2{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.test1{
+    width: 30%;
+    height: 160px;
+}
+.test2{
+    width: 30%;
+    height: 160px;
+}
+.test3{
+    width: 30%;
+    height: 160px;
+}
+
+/* fin  de la partie alignement des images et texte sur la nourriture */
+
+/* debut de la partie 100% satisfaction  */
+.grandesection{
+    width: 100%;
+    height: 700px;
+}
+.satisfaction{
+    width: 80%;
+    height: 252px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #13500E;
+    border-radius: 0px 0px 0px 50px;
+
+ 
+}
+.cotegauche{
+    width: 45%;
+    height:100% ;
+}
+.cotedroit{
+    width: 45%;
+    height:100% ;
+}
+.pourcentage{
+    width: 258px;
+    height: 128px;
+    margin-left: 100px;
+    color: white;
+}
+.apointement{
+    width: 177px;
+    height: 37px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-top: 2px solid #D9D9D9;
+    border-right: 2px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    background: #103F0C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.make{
+    margin-top: -7px;
+    color: white;
+    margin-left: 5px;
+}
+.arriere{
+    width: 186px;
+    height: 236px;
+    background-color: #BAB7B7;
+    margin-top: 60px;
+}
+.backimage{
+    margin: auto;
+}
+
+/* fin de la partie 100% satisfaction  */
+
+/* debut du footer  */
+
+.footer{
+    width: 90%;
+    height: 387px;
+    background-color: #A4D082;
+    margin-left: 60px;
+    z-index: 1;
+    border-radius: 1% 99% 0% 100% / 100% 25% 75% 0%;
+    border-top-left-radius: 20px;
+    margin-top: -20px;
+
+}
+.mamie{
+    width: 25%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.cercle{
+    width: 13px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: #A4D082;
+}
+.couch{
+    margin-left: 100px;
+  
+
+}
+.longuer{
+    width: 40%;
+    height: 15%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact1{
+    width:  80px;
+    height:20px ;
+    margin: auto;
+}
+.contact1 p{
+    margin: auto;
+}
+
+
+.socialmedia{
+    width: 40%;
+    height: 15%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.face{
+    width:  80px;
+    height:20px ;
+    margin-top: -10px;
+}
+.copyright{
+    width: 50%;
+    height: 10%;
+    margin-left: 70px;
+}
+.papie{
+    width: 300px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: -250px;
+}
+.blanc{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: white;
+}
+.adress{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.sous{
+    width:150px ;
+    height: 30px;
+    margin-left: 20px;
+    background-color: #27C019;
+    border-bottom-left-radius: 20px;
+    margin-top: 30px;
+}
+.ecriture{
+    margin-top:-20px;
+    color: white;
+}
+.blabla{
+    margin-top: 10px;
+    width:250px ;
+    height: 50px;
+    margin-left: 20px;
+}
